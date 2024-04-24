@@ -19,6 +19,6 @@ jobs:
           pip install -r requirements.txt
       - name: Test with pytest
         run:
-          pytest --cov=app\tests\test_funcionario --cov-report=xml
+          pytest --cov=app\tests\test_funcionario --cov-report term-missing
 
 

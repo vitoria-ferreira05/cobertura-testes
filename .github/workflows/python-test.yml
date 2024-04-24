@@ -6,7 +6,7 @@ on:
       - feature/cobertura_testes
 jobs:
   build:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2

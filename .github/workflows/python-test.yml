@@ -21,11 +21,11 @@ jobs:
         run:
           pytest --cov=app\tests\test_funcionario --cov-report term-missing
 
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v2
-        with:
-          file: ./coverage.xml
-          fail_ci_if_error: true
+#      - name: Upload coverage to Codecov
+#        uses: codecov/codecov-action@v2
+#        with:
+#          file: ./coverage.xml
+#          fail_ci_if_error: true
 
 
 #name: cobertura-tests

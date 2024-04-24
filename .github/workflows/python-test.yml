@@ -1,5 +1,6 @@
 name: app
-on: [push]
+
+on: push
 jobs:
   build:
     runs-on: ubuntu_latest

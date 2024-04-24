@@ -42,4 +42,3 @@ class Funcionario:
     @salario.setter
     def salario(self, value):
         self._salario = value
-
